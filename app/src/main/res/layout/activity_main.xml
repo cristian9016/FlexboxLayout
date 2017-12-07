@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:flexDirection="row"
+    app:justifyContent="space_between"
+    app:alignItems="flex_start"
+    app:flexWrap="wrap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cristiandev.flexboxlayout.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_minWidth="320dp"
+        app:layout_flexGrow="1"
+        android:hint="campo 1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_minWidth="320dp"
+        app:layout_flexGrow="1"
+        android:hint="campo 2"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_minWidth="320dp"
+        app:layout_flexGrow="1"
+        android:hint="campo 3"/>
+</com.google.android.flexbox.FlexboxLayout>
